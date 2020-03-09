@@ -46,7 +46,11 @@ public void aftermethod() {
 		System.out.println("Hybrid");
 	}
 	
-	
+	@Test (priority=2)
+	public void deleteUserTest() {
+		
+		System.out.println("Hybrid");
+	}
 	
 	
 	
